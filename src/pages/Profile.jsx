@@ -1,4 +1,3 @@
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import styled from 'styled-components';
 import { useEffect } from 'react';
 import { useSelector } from "react-redux";

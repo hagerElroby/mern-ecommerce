@@ -1,11 +1,13 @@
-import { Badge } from "@material-ui/core";
-import { Search, ShoppingCartOutlined } from "@material-ui/icons";
+import SearchIcon from '@mui/icons-material/Search';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+// import BadgeIcon from '@mui/icons-material/Badge';
+import Badge from '@mui/material/Badge';
 import React from "react";
 import styled from "styled-components";
 import { mobile } from "../responsive";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const Container = styled.div`
   height: 60px;
@@ -85,7 +87,7 @@ const Navbar = () => {
           <Language>EN</Language>
           <SearchContainer>
             <Input placeholder="Search" />
-            <Search style={{ color: "gray", fontSize: 16 }} />
+            <SearchIcon style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
         </Left>
         <Center>
@@ -104,7 +106,7 @@ const Navbar = () => {
               <Link className="link" to="/cart">
                 <MenuItem>
                   <Badge badgeContent={quantity} color="primary">
-                    <ShoppingCartOutlined />
+                    <ShoppingCartIcon />
                   </Badge>
                 </MenuItem>
               </Link>
