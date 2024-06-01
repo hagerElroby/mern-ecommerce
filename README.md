@@ -7,8 +7,8 @@ This is a full-stack e-commerce web application built with React, Redux Toolkit,
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Folder Structure](#folder-structure)
 - [Technologies Used](#technologies-used)
+- [Folder Structure](#folder-structure)
 
 ## Features
 
@@ -60,6 +60,11 @@ This is a full-stack e-commerce web application built with React, Redux Toolkit,
 - Click on the cart icon in the navigation bar to view the items in your cart.
 - Adjust quantities or remove items as needed.
 
+##Technologies Used
+- Frontend: React, Redux Toolkit, Axios, Styled Components, Material-UI Icons, React Router DOM, SweetAlert2, Redux Persist
+- Backend: Node.js, Express.js, Mongoose, MongoDB
+- Authentication: JWT (JSON Web Tokens)
+
 ## Folder Structure
 
 ### Client
@@ -102,8 +107,3 @@ This is a full-stack e-commerce web application built with React, Redux Toolkit,
 ├── package-lock.json
 └── package.json
 
-
-##Technologies Used
-- Frontend: React, Redux Toolkit, Axios, Styled Components, Material-UI Icons, React Router DOM, SweetAlert2, Redux Persist
-- Backend: Node.js, Express.js, Mongoose, MongoDB
-- Authentication: JWT (JSON Web Tokens)
