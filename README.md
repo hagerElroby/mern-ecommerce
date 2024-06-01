@@ -8,7 +8,6 @@ This is a full-stack e-commerce web application built with React, Redux Toolkit,
 - [Installation](#installation)
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
-- [API Endpoints](#api-endpoints)
 - [Technologies Used](#technologies-used)
 
 ## Features
@@ -101,5 +100,10 @@ This is a full-stack e-commerce web application built with React, Redux Toolkit,
 ├── .gitignore
 ├── README.md
 ├── package-lock.json
-├── package.json
-└── ...
+└── package.json
+
+
+##Technologies Used
+- Frontend: React, Redux Toolkit, Axios, Styled Components, Material-UI Icons, React Router DOM, SweetAlert2, Redux Persist
+- Backend: Node.js, Express.js, Mongoose, MongoDB
+- Authentication: JWT (JSON Web Tokens)
