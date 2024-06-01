@@ -60,7 +60,8 @@ This is a full-stack e-commerce web application built with React, Redux Toolkit,
 - Click on the cart icon in the navigation bar to view the items in your cart.
 - Adjust quantities or remove items as needed.
 
-##Technologies Used
+## Technologies Used
+
 - Frontend: React, Redux Toolkit, Axios, Styled Components, Material-UI Icons, React Router DOM, SweetAlert2, Redux Persist
 - Backend: Node.js, Express.js, Mongoose, MongoDB
 - Authentication: JWT (JSON Web Tokens)
