@@ -31,7 +31,7 @@ This is a full-stack e-commerce web application built with React, Redux Toolkit,
 
     ```bash
     git clone https://github.com/hagerElroby/mern-ecommerce.git
-    cd ecommerce-project
+    cd mern-ecommerce
     ```
 
 2. Install dependencies for client:
